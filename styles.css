@@ -388,7 +388,7 @@ section {
 }
 
 .coach-grid {
-  grid-template-columns: 1.2fr 1fr;
+  grid-template-columns: 1fr;
 }
 
 .coach-card {
@@ -402,6 +402,10 @@ section {
 
 .featured-coach {
   background: linear-gradient(180deg, rgba(120, 240, 255, 0.16), rgba(255,255,255,0.05));
+}
+
+.solo-coach {
+  max-width: 760px;
 }
 
 .coach-top {
