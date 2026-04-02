@@ -284,6 +284,13 @@ section {
   margin-bottom: 24px;
 }
 
+.seo-intro {
+  max-width: 62ch;
+  margin: -4px 0 24px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
 .section-head h2,
 .challenge-copy h2 {
   margin: 0;
