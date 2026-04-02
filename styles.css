@@ -378,6 +378,11 @@ section {
   line-height: 0.9;
 }
 
+.metric-word .metric-value {
+  font-size: clamp(2.1rem, 4.2vw, 3.6rem);
+  line-height: 0.95;
+}
+
 .metric-label {
   margin-top: 10px;
   color: var(--muted);
