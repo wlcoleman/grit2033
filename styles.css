@@ -407,6 +407,10 @@ section {
   grid-template-columns: 1fr;
 }
 
+.coach-grid.two-coaches {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .coach-card {
   border: 1px solid var(--line);
   background: linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.04));
@@ -579,7 +583,8 @@ footer {
   .metrics-grid,
   .quote-wall,
   .roster-grid,
-  .coach-grid {
+  .coach-grid,
+  .coach-grid.two-coaches {
     grid-template-columns: 1fr;
   }
 
